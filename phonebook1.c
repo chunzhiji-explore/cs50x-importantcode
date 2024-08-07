@@ -4,7 +4,7 @@
 
 int main(void)
 {               //打开文件并返回其地址
-   FILE *file = fopen("phonebook;.csv", "a");
+   FILE *file = fopen("phonebook.csv", "a");
    if (file == NULL)
    {
     return 1;
