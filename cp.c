@@ -12,7 +12,7 @@ ine main(int argc, char *argv[])
 
     BYTE b;
                 //从src读取并放入b（一个中转处）
-    while (fread(&b, sizeof(b), 1, src) !=o)
+    while (fread(&b, sizeof(b), 1, src) !=0)
     {           //从b（一个中转处）并写入dst
         fwrite(&b, sizeof(b), 1, dst);
     }
