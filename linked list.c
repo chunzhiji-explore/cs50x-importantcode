@@ -3,7 +3,7 @@ typedef struct node
     int number;
            //指向node的名为next的指针
     struct node *next;
-}node*
+}node
 
 node *list = NULL;
 node *n = malloc(sizeof(node));
